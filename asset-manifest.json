@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reacti/static/css/main.7c5fcfc0.css",
+    "main.js": "/reacti/static/js/main.872d5bfd.js",
+    "index.html": "/reacti/index.html",
+    "main.7c5fcfc0.css.map": "/reacti/static/css/main.7c5fcfc0.css.map",
+    "main.872d5bfd.js.map": "/reacti/static/js/main.872d5bfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c5fcfc0.css",
+    "static/js/main.872d5bfd.js"
+  ]
+}
