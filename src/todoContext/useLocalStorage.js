@@ -25,6 +25,7 @@ function useLocalStorage(itemName, initialValue) {
       } catch(error) {
       // En caso de un error lo guardamos en el estado
         setError(error);
+        
       } finally {
         // También podemos utilizar la última parte del try/cath (finally) para terminar la carga
         setLoading(false);
@@ -37,10 +38,12 @@ function useLocalStorage(itemName, initialValue) {
     try {
       const stringifiedItem = JSON.stringify(newItem);
       localStorage.setItem(itemName, stringifiedItem);
-      setItem(newItem);
+      setItem(newItem); 
+      console.log('calidad')
     } catch(error) {
       // En caso de algún error lo guardamos en el estado
       setError(error);
+      console.log('incalidad')
     }
   };
 
